@@ -1,0 +1,74 @@
+.col .card .img-fluid {
+  height: 20rem;
+}
+
+.col .card .cord {
+  background-color: #95d1cc;
+  height: 122%;
+  background-size: cover;
+  background-repeat: repeat;
+  padding: 90px 0;
+}
+
+.col .card .cord p {
+  display: block;
+  width: 50ch;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #11144c;
+  font-size: 1.3rem;
+}
+
+.col .card .cord .btnn {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #333;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.col .card .cord .btnn .noselect {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+
+.col .card .cord .btnn::before, .col .card .cord .btnn::after {
+  position: absolute;
+  background: #eee;
+  z-index: -1;
+  transition: 0.5s;
+  content: "";
+}
+
+.col .card .cord .btnn::before {
+  height: 50px;
+  width: 130px;
+}
+
+.col .card .cord .btnn::after {
+  width: 150px;
+  height: 30px;
+}
+
+.col .card .cord .btnn:hover::before {
+  width: 0px;
+  background: #fff;
+}
+
+.col .card .cord .btnn:hover::after {
+  height: 0px;
+  background: #fff;
+}
+
+.col .card .cord .btnn:hover {
+  background: #fff;
+}

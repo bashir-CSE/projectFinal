@@ -1,0 +1,13 @@
+.MyRecord-container {
+  position: relative;
+  height: 90vh;
+}
+
+.MyRecord-container .upload-btn {
+  position: absolute;
+  bottom: 30px;
+  right: 0px;
+  outline: none;
+  border: none;
+  background-color: #0000;
+}

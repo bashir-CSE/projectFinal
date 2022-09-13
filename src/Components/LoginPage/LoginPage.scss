@@ -1,0 +1,16 @@
+.container {
+	.row {
+		text-align: center;
+		.carrd {
+			.img-container {
+				height: 40vh;
+				width: 40%;
+				margin: 0 auto;
+				img {
+					height: 100%;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

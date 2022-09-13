@@ -1,0 +1,29 @@
+.profilePic img {
+	border-radius: 50%;
+	height: 30%;
+	width: 30%;
+}
+.offcanvas {
+	width: 24vw !important;
+	.profilePic{
+		svg{
+			font-size: 6.5rem;
+		}
+	}
+}
+
+.offcanvasList {
+	list-style: none !important;
+	a,
+	p {
+		color: #000 !important;
+		font-weight: 500 !important;
+	}
+}
+.nav-bar {
+	background-color: #146356 !important;
+
+	.nav-link {
+		color: #ffffff !important;
+	}
+}
